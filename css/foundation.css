@@ -11,7 +11,7 @@ body {
   
 
 body {
-  overflow: hidden;
+  /*overflow: hidden;*/
   background: url('Crowd.jpg');
   background-repeat:no-repeat;
   background-attachment:fixed;
