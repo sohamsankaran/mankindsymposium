@@ -4756,7 +4756,10 @@ a.th {
     
     .slide{
 margin-top: 15em;
+
+   display: table;
 }
+
 
     .sdown{
     
@@ -4765,6 +4768,9 @@ margin-top: 15em;
     
     border-radius: 10px;
     padding: 2em;
+       display: table-cell;
+   vertical-align: middle;
+
     
     
     }
