@@ -4759,25 +4759,17 @@ margin-top: 10em;
 
 }
 
-.slide:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-}
+
 
 
 
     .sdown{
     
     font-family: RobotoLight;
-
+line-height: normal;
     
     border-radius: 10px;
     padding: 2em;
-  display: inline-block;
-  vertical-align: middle;
 
     
     
