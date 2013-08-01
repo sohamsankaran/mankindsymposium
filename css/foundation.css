@@ -4760,13 +4760,17 @@ margin-top: 10em;
 
     .sdown{
     
-      /*  display:block;
+    border-radius: 10px;
+    padding: 1em;
+    
+    
+        display:block;
     -webkit-filter: blur(30px);
     -moz-filter: blur(15px);
     -o-filter: blur(15px);
     -ms-filter: blur(15px);
     filter: blur(15px);
-    opacity: 0.6;*/
+    opacity: 0.6;
 
     
     }
