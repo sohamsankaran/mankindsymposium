@@ -8,10 +8,14 @@
 html,
 body {
   font-size: 100%; }
+  
 
 body {
+  overflow: hidden;
   background: url('Crowd.jpg');
-  color: #222222;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  color: #00000;
   padding: 0;
   margin: 0;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -20,6 +24,80 @@ body {
   line-height: 1;
   position: relative;
   cursor: default; }
+  
+#pageheader {
+margin-top: 7em;
+position:fixed;
+width: 100%;
+z-index: 3;
+text-align:center;
+}
+
+
+#pageheader ul {
+display: inline-block;
+text-align: center;
+font-family: RobotoLight;
+font-size: 1.2em;
+list-style-type: none;
+padding: 0;
+margin: 0;
+background: rgba(250, 249, 245, 0.8);
+width: -moz-fit-content;
+width: -webkit-fit-content;
+width: fit-content;
+padding-left: 0.4em;
+padding-right: 0.4em;
+border-radius: 8px;
+
+}
+
+#pageheader ul a {
+color: #000
+}
+
+#pageheader ul li{
+display: inline;
+margin-right: 1em;
+
+}
+
+
+#pageheader ul li:last-child{
+margin-right: 0;
+}
+
+
+
+#pageheader ul a{
+text-decoration: none;
+}
+
+#pageheader ul a:hover{
+border-bottom:solid 1px #333;
+}
+
+
+
+footer.finalfooter{
+width: 100%;
+text-align: center;
+margin-top: 3em;
+padding-bottom: 2em;
+}
+
+footer.finalfooter .text{
+color: #444;
+font-size: 0.9em;
+line-height: 1.2;
+width: 100%;
+display: block;
+font-size: 80%;
+font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
 
 a:hover {
   cursor: pointer; }
@@ -4674,3 +4752,20 @@ a.th {
     max-width: 500px; }
   .f-dropdown.large {
     max-width: 800px; }
+    
+    
+    .slide{
+margin-top: 10em;
+}
+
+    .sdown{
+
+background: rgba(0,0,0,0.6);
+
+border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+-webkit-border-radius: 20px 20px 20px 20px;
+border: 0px solid #000000;
+
+}
+
