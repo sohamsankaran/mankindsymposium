@@ -4756,6 +4756,7 @@ a.th {
     
     .slide{
 margin-top: 10em;
+min-height: 50em;
 
 }
 
