@@ -14,6 +14,8 @@
 
   <script src="js/vendor/custom.modernizr.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+      <script src="js/blur.js"></script>
+
  
 
 </head>
@@ -208,6 +210,14 @@ Created and ©2013 by <a rel="author" href="http://soh.am">Soham Sankaran</a> an
   }
  
 });
+</script>
+<script>
+$('.sdown').blurjs({
+	source: 'body',
+	radius: 7,
+	overlay: 'rgba(255,255,255,0.4)'
+});
+
 </script>
   <script>
   document.write('<script src=' +
