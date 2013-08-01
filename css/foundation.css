@@ -4755,9 +4755,17 @@ a.th {
     
     
     .slide{
-        font-family: RobotoMedium;
 margin-top: 10em;
 min-height: 50em;
+
+}
+
+.subhead{
+    	text-align: center;
+        font-family: RobotoMedium;
+        font-size: 1.5em;
+        margin:0;
+        margin-bottom: -1.5em;
 
 }
 
@@ -4766,7 +4774,7 @@ min-height: 50em;
 
 
     .sdown{
-    
+    text-align: left;
     font-family: RobotoLight;
 line-height: normal;
     
