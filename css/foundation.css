@@ -4755,10 +4755,18 @@ a.th {
     
     
     .slide{
-margin-top: 15em;
+margin-top: 10em;
 
-   display: table;
 }
+
+.slide:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
 
 
     .sdown{
@@ -4768,8 +4776,8 @@ margin-top: 15em;
     
     border-radius: 10px;
     padding: 2em;
-       display: table-cell;
-   vertical-align: middle;
+  display: inline-block;
+  vertical-align: middle;
 
     
     
